@@ -13,10 +13,10 @@ body {
 h2 {
   font-family: got;
   text-shadow: 1px 10px 10px rgb(152, 158, 111);
-  color: rgb(130, 95, 49);
+  color: rgb(130, 95, 48);
   font-size: 22px;
-  background-color: rgb(253, 219, 163);
-  padding: 5px;
+  background-color: rgb(253, 219, 164);
+  padding: 5px 5px;
   border-radius: 5px;
 }
 h1 {
