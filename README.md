@@ -1,9 +1,3 @@
 # Simple webpage made for fund
-ddddddddddds
-# Prank friends alwaysdd
-dddddddddddddddddddd
-ddddddfdffffffdfsddddddddddd
-ddddddddddddddddddfdddd
-ddfdddddddddddddddd
-ddddfddsdsdddddddddddd
-dddddddddddd
+
+# Prank friends always
