@@ -15,20 +15,22 @@ function theGift() {
 clickDiv.addEventListener("click", () => {
   if (inputField.value !== "") {
     if (
-      inputField.value !== "noble" &&
-      inputField.value !== "nob" &&
-      inputField.value !== "noba" &&
-      inputField.value !== "nobel" &&
-      inputField.value !== "nobl" &&
-      inputField.value !== "no" &&
-      inputField.value !== "noble biru" &&
-      inputField.value !== "noblebiru" &&
-      inputField.value !== "n" &&
-      inputField.value !== "nobela" &&
-      inputField.value !== "noblea" &&
-      inputField.value !== "nobleb" &&
-      inputField.value !== "noble b" &&
-      inputField.value !== "noble a"
+      inputField.value !== "NOBLE" &&
+      inputField.value !== "NOB" &&
+      inputField.value !== "NOBA" &&
+      inputField.value !== "NOBEL" &&
+      inputField.value !== "NOBL" &&
+      inputField.value !== "NO" &&
+      inputField.value !== "NOBLE BIRU" &&
+      inputField.value !== "NOBLEBIRU" &&
+      inputField.value !== "N" &&
+      inputField.value !== "NOBELA" &&
+      inputField.value !== "NOBLE BIRU DEGEFA" &&
+      inputField.value !== "NOBLEB" &&
+      inputField.value !== "NOBLE B" &&
+      inputField.value !== "NOBLE BI" &&
+      inputField.value !== "NOBLE BIR" &&
+      inputField.value !== "NOBLE BIRRU"
     ) {
       displayText.textContent = "Fuck you " + inputField.value;
       theGift();
