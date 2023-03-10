@@ -17,8 +17,12 @@ clickDiv.addEventListener("click", () => {
     displayText.textContent = "Fuck you " + inputField.value;
     theGift();
     message.style.background = "rgb(253, 219, 163)";
+    message.style.fontFamily = "got";
+    message.style.color = "rgb(130, 95, 48)";
   } else {
     message.textContent = " please enter your name";
+    message.style.color = "white";
+    message.style.fontFamily = "inherit";
     message.style.background = "red";
   }
 });

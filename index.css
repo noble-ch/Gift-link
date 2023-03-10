@@ -1,5 +1,8 @@
 body {
-  background-color: peachpuff;
+  /* background-color: peachpuff; */
+  background: linear-gradient(rgb(246, 209, 0), rgb(116, 93, 44));
+  margin: 0;
+  height: 100vh;
 
   text-align: center;
 }
@@ -21,6 +24,9 @@ h1 {
   font-family: got;
   font-size: 64px;
 }
+#displayText {
+  font-size: 40px;
+}
 #img {
   border: 2px solid gray;
 
@@ -30,15 +36,15 @@ h1 {
   height: 400px;
   background-image: url("gift.jpg");
   background-size: cover;
-  box-shadow: 10px 10px 20px rgb(194, 181, 159);
-  margin: 0 auto;
+  box-shadow: 10px 10px 20px rgb(73, 52, 16);
+  margin: auto;
   align-items: center;
 }
 #img:hover {
-  width: 520px;
-  height: 420px;
+  width: 500px;
+  height: 400px;
   box-decoration-break: slice;
-  box-shadow: 10px -10px 200px rgb(194, 181, 159);
+  box-shadow: 10px -2px 100px rgb(94, 66, 17);
 }
 div {
   display: flex;
@@ -58,11 +64,24 @@ div {
 label {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
+  color: rgb(90, 69, 21);
 }
 div {
   margin: 0%;
 }
-
 a {
+  display: flex;
+  justify-content: center;
+}
+#a:hover {
   text-decoration: none;
+  box-shadow: 2px 1px 5px rgb(180, 150, 74);
+}
+
+.botom {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid rgb(130, 95, 48);
+  border-radius: 20px;
 }
