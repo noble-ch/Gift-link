@@ -30,7 +30,23 @@ clickDiv.addEventListener("click", () => {
       inputField.value !== "NOBLE B" &&
       inputField.value !== "NOBLE BI" &&
       inputField.value !== "NOBLE BIR" &&
-      inputField.value !== "NOBLE BIRRU"
+      inputField.value !== "NOBLE BIRRU" &&
+      inputField.value !== "noble" &&
+      inputField.value !== "nob" &&
+      inputField.value !== "noba" &&
+      inputField.value !== "nobel" &&
+      inputField.value !== "nobl" &&
+      inputField.value !== "no" &&
+      inputField.value !== "noble biru" &&
+      inputField.value !== "noblebiru" &&
+      inputField.value !== "n" &&
+      inputField.value !== "nobela" &&
+      inputField.value !== "noble biru degefa" &&
+      inputField.value !== "noble" &&
+      inputField.value !== "noble b" &&
+      inputField.value !== "noble bi" &&
+      inputField.value !== "noble birr" &&
+      inputField.value !== "noble birru"
     ) {
       displayText.textContent = "Fuck you " + inputField.value;
       theGift();
