@@ -17,6 +17,7 @@ h2 {
   border-radius: 5px;
 }
 h1 {
+  margin-top: 20px;
   font-family: got;
   font-size: 64px;
 }
@@ -26,16 +27,16 @@ h1 {
   border-radius: 20px;
   display: flex;
   width: 500px;
-  height: 300px;
+  height: 400px;
   background-image: url("gift.jpg");
   background-size: cover;
   box-shadow: 10px 10px 20px rgb(194, 181, 159);
-  margin: auto;
+  margin: 0 auto;
   align-items: center;
 }
 #img:hover {
   width: 520px;
-  height: 320px;
+  height: 420px;
   box-decoration-break: slice;
   box-shadow: 10px -10px 200px rgb(194, 181, 159);
 }
@@ -43,4 +44,25 @@ div {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+}
+#inputField {
+  border: 1px solid rgb(130, 95, 48);
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0);
+  padding: 5px 20px;
+  margin: 10px;
+}
+#inputField:focus {
+  box-shadow: 10px 10px 20px rgb(207, 162, 91);
+}
+label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+div {
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
 }
