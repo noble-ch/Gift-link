@@ -36,7 +36,7 @@ clickDiv.addEventListener("click", () => {
       message.style.fontFamily = "got";
       message.style.color = "rgb(130, 95, 48)";
     } else {
-      message.textContent = " wrong input";
+      message.textContent = " wrong input 🖕";
       message.style.color = "white";
       message.style.fontFamily = "inherit";
       message.style.background = "red";
