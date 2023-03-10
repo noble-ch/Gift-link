@@ -1,2 +1,2 @@
-#simple webpage made for fun 
-#prank friends
+# simple webpage made for fun 
+# prank friends
