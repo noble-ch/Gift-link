@@ -18,7 +18,8 @@ clickDiv.addEventListener("click", () => {
       inputField.value == "meheretu" ||
       inputField.value == "bisrat" ||
       inputField.value == "dolphin" ||
-      inputField.value == "firaol"
+      inputField.value == "firaol" ||
+      inputField.value == "ake"
     ) {
       displayText.textContent = "Fuck you " + inputField.value;
       theGift();
