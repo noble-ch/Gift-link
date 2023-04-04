@@ -1,5 +1,3 @@
 # Simple webpage made for fun
 
-# Prank friends alwa
-
-
+# Prank friends alway
