@@ -1,3 +1,3 @@
 # Simple webpage made for fun
 
-# Prank friends alwaysss
+# Prank friends alwayss
