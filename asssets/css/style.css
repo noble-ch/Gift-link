@@ -1,0 +1,448 @@
+/** {
+	border: 1px solid red;
+}*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4vw;
+	text-align: center;
+}
+
+/* navigation section */
+	
+	/* this isn't working */
+	/*#navigation nav {   
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0; 
+		width: 100%;
+	}*/
+
+	#navigation .navbar-nav {
+		text-align: right;
+		padding-right: 5px;
+	}
+
+	#navigation #firebaseModalBtn {
+		color: #ff0000;
+		cursor: pointer;
+	}
+
+/* intro section */
+	#intro .jumbotron {
+		
+		background-color: transparent !important;
+	}
+
+	#intro #video-container {
+		position: relative;
+	}
+
+	#intro video {
+		opacity: 0.5;
+
+		height: auto;
+		vertical-align: middle;
+		width: 100%
+	}
+
+	#intro .overlay-desc {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;   /* don't delete very important */
+		flex-direction: column;
+		/* align-items: center; */  /* center items vertically */
+		/*justify-content: center; */   /* center items horizontally */
+	}
+
+	#intro h1 {
+		/*display: inline;*/
+		color: black;
+		text-align: center;
+		/*margin-right: auto;*/
+		/*margin-left: auto;*/
+		/*margin-top: 10%;*/
+		letter-spacing: 3px;
+		font-size: 6vw;
+		max-width: 900px;
+		margin-top: 6%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#intro p {
+		max-width: 900px;
+		text-align: center; 
+		margin-top: 5%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 2vw;
+	}
+
+	#intro form {
+		margin-top: 5%;
+
+	}
+
+	#intro .btn-twitter {
+		margin-top: 2%;
+		justify-content: center;
+	}
+
+
+	#intro #firebaseModal {
+		z-index: auto;
+	}
+
+	/* up arrow button */
+	#intro #upArrow {
+		display: block; /* Hidden by default */
+		position: fixed; /* Fixed/sticky position */
+	    bottom: 20px; /* Place the button at the bottom of the page */
+		float: right;
+	    right: 1px; 
+	    z-index: 99; /* Make sure it does not overlap */
+	    width: 50px;
+		clear: both;
+	}
+
+	#intro #upArrow img {
+		width: 50%;
+		height: auto;
+		cursor: pointer;
+	}
+
+/* twitter */
+
+	/* adjusting twitter logo*/
+	#twitter {
+		margin-top: 50px;
+		position: relative;
+	}
+
+	#twitter .container {
+		background-image: url("../images/whitediamond.png");
+		padding-top: 30px;
+		padding-bottom: 30px; 
+	}
+
+
+	#twitter h3 {
+		font-size: 40px;
+	}
+
+	#twitter .rounded-circle {
+		width: 150px;
+		height: auto;
+		display: block;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	/* adjusting titles */
+	#twitter #latestTweetTitle p {
+		font-family: 'Slim-Joe';
+		text-align: center;
+		font-size: 1.5vw;
+		color: #ff0000;
+		font-weight: bold;
+	}
+
+	/* background for personality profile side */
+	#twitter #personalityProfile {
+		background-image: url("../images/IBM_Watson_Logo_2017-30.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		line-height: 30px;
+		background-size: auto 100%;
+	}
+
+	/* keep this just in case this is taken out of the grid */
+	#twitter #latestTweet {
+		background-image: url("../images/Twitterbird-30.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+	}
+
+	#twitter #personalityProfile {
+		border-left: 1px solid #000000;
+	}
+
+	#twitter #watsonModalBtn {
+		margin-top: 20px;
+	}
+
+	#twitter #sunburstModal img {
+		width: 100%;
+		height: auto;
+	}
+
+/* carousel */
+	#shopping {
+		margin-top: 50px;
+		height: 700px;
+		position: relative;
+	}
+
+	#shopping .container {
+		background-image: url("../images/foggy_birds.png");
+		padding-bottom: 70px;
+	}
+
+	#shopping img {
+		max-height: 125px;
+		margin-top: 20px;
+	}
+
+	#shopping h3 {
+		font-size: 40px;
+	}
+
+	#shopping .carousel{
+		height: 400px;
+		margin-top: 30px;
+	}
+
+	#shop-carousel {
+		padding: 0 10px 30px 10px;
+	}
+
+	/* Control buttons  */
+	#shop-carousel .carousel-control{
+		background: none;
+		color: #222;
+		font-size: 2.3em;
+		text-shadow: none;
+		margin-top: 30px;
+	}
+	
+	/* this makes the image bulge out a bit on hover */
+	#shopping .carousel .grow {
+		transition: all .2s ease-in-out;
+	}
+
+	#shopping .carousel .grow:hover {
+		transform: scale(1.1);
+	}
+
+	/* product image */
+	#shopping .carousel-item img {
+		margin: auto;
+	}
+
+	#shopping .carousel-indicators {
+		margin-top: 200px;
+		margin-bottom: 35px;
+		top: 235px;
+	}
+
+	/* title of the product */
+	#shopping .carousel-item p {
+		font-size: 13px;
+		font-style: italic;
+		padding-top: 5px;
+	}
+
+	/* Previous button  */
+	#shopping .carousel-control-prev {
+		width: 50px;
+	}
+
+	/* clickable carousel */
+	#shopping .carousel-item a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
+		color: black;
+	}
+
+	#shopping .carousel-control-prev-icon {
+	  	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%575859' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}	/* to change color, change the "fill" attribute */
+	/* Next button  */
+	#shopping .carousel-control-next {
+		width: 50px;
+	}
+
+	#shopping .carousel-control-next-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%575859' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	}   /* to change color, change the "fill" attribute */ 
+	
+	/* Changes the color of the indicators */
+	#shopping #shop-carousel .carousel-indicators li {
+		background: #c0c0c0;
+	}
+	#shopping #shop-carousel .carousel-indicators .active {
+		background: #333333;
+	}
+	/* End carousel */
+
+
+/* team */
+	#about {
+		margin-top: 50px;
+		position: relative;
+		margin-bottom: 50px;
+	}
+
+	/* background img */
+	#about .container {
+		background-image: url("../images/gplaypattern.png");
+		padding-bottom: 30px;
+	}
+
+	/* remove link effects */
+	#about a:hover, #about a:link {
+	    color: black;
+	    text-decoration: none;
+	}
+
+	/* format our pictures */
+	#about img {
+		width: 150px;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+
+	#about h2 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	#about #sub-heading h2 {
+/*		font-family: 'Slim-Joe';*/
+	}
+
+	#about p {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#about h3 {
+		/*font-size: 40px;*/
+		margin-top: 5px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-family: 'Slim-Joe';
+		font-size: 2vw;
+		/*text-align: center;*/
+		color: #ff0000;
+	}
+
+	/*#about h3 {
+		font-size: 30px;
+	}*/
+
+	#about .rounded-circle {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#about p {
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	#about #personalityProfile {
+		margin-bottom: 40px;
+	}
+	
+	#about #name {
+		margin-bottom: 15px;
+	}
+
+	#about .profile {
+		margin-top: auto;
+		margin-bottom: auto; 
+	}
+
+	/**
+	  MEDIA QUERIES
+	*/
+
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: 768px) { 
+	    #shop-carousel 
+	    {
+	      margin-bottom: 0;
+	      padding: 0 40px 30px 40px;
+	    }
+	    
+	}
+
+	/* Small devices (tablets, up to 768px) */
+	@media (max-width: 768px) { 
+	    
+	    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+	    
+	    #shop-carousel .carousel-indicators {
+	        bottom: -20px !important;  
+	    }
+	    #shop-carousel .carousel-indicators li {
+	        display: inline-block;
+	        margin: 0px 5px;
+	        width: 15px;
+	        height: 15px;
+	    }
+	    #shop-carousel .carousel-indicators li.active {
+	        margin: 0px 5px;
+	        width: 20px;
+	        height: 20px;
+	    }
+	}
+
+
+.headline {
+	font-family: 'Slim-Joe';
+	color: black;
+	text-align: center;
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
+	/*margin-top: 10%;*/
+	letter-spacing: 3px;
+	font-size: 8vw;
+	max-width: 1200px;
+	margin-top: 6%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bottomline {
+	color: black;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+.gift {
+	color: black;
+}
+
+.insights {
+	color: red;
+}
+
+#sunburstModalLabel h5 {
+	font-family: 'Slim-Joe';
+	font-size: 1.5vw;
+	color: #ff0000;
+}
+
+
+/* footer */
+.footer {
+	/*background-color: #000000;*/
+	text-align: center;
+	color: #7b7c7c;
+	line-height: 30px;	
+	padding-bottom: 5px;
+}
+
