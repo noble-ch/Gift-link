@@ -1,4 +1,4 @@
-# Simple webpage made for fun
+# Simple webpage made for fund
 ddddddddddds
 # Prank friends always
 dddddddddddddddd
