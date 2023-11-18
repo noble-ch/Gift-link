@@ -1,0 +1,26 @@
+{
+  "name": "twitter_based_personality_insights_via_watson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCLA-Hackers/twitter-watson-personality-insights.git"
+  },
+  "author": "Ysrael 'Izzy Keanu' Hernandez, Mike Yamato, Donovan Lowkeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCLA-Hackers/twitter-watson-personality-insights/issues"
+  },
+  "homepage": "https://github.com/UCLA-Hackers/twitter-watson-personality-insights#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "smoothscroll-polyfill": "^0.4.0",
+    "twitter": "^1.7.1",
+    "watson-developer-cloud": "^2.39.2"
+  },
+  "devDependencies": {}
+}
